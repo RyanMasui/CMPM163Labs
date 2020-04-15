@@ -13,6 +13,8 @@
 		<script 
 			src="../three.js-master/examples/js/loaders/GLTFLoader.js"></script>
 		<script>
+
+				
      			var scene = new THREE.Scene();
     			var camera = new THREE.PerspectiveCamera(75, 
 				window.innerWidth/window.innerHeight, 0.1, 1000);
@@ -20,6 +22,69 @@
      			renderer.setSize(window.innerWidth, window.innerHeight);
      			document.body.appendChild(renderer.domElement);
       			camera.position.z = 200;
+
+				var light = new THREE.PointLight(0xf90000, 1, 1000);
+				light.position.set(50, 50, 50);
+				scene.add(light);
+				
+				var light = new THREE.PointLight(0x2c00ec, 1, 1000);
+				light.position.set(50, 50, 50);
+				scene.add(light);
+
+				//Dog Model
+				var loader = new THREE.GLTFLoader();
+				loader.load('dog.glb', function (gltf) {
+				scene.add(gltf.scene);
+				}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+				}, function (error) {
+				console.error(error);
+				});
+
+				//Cat Model
+				var loader = new THREE.GLTFLoader();
+				loader.load('cat.glb', function (gltf) {
+				scene.add(gltf.scene);
+				gltf.scene.position.x = 100;
+				gltf.scene.rotation.y = 5;
+				gltf.scene.rotation.z = 5;
+				gltf.scene.scale.x = 3.3;
+				gltf.scene.scale.y = 6.3;
+				gltf.scene.scale.z = 6.3;
+
+				}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+				}, function (error) {
+				console.error(error);
+				});
+				
+				//Rabbit Model
+				var loader = new THREE.GLTFLoader();
+				loader.load('rabbit.glb', function (gltf) {
+				scene.add(gltf.scene);
+				gltf.scene.position.x = -100;
+				gltf.scene.rotation.y = -5;
+				gltf.scene.rotation.x = 10;
+				gltf.scene.scale.x = 3.3;
+				gltf.scene.scale.y = 3.3;
+				gltf.scene.scale.z = 3.3;
+
+
+				}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+				}, function (error) {
+				console.error(error);
+				});
+				
+				
+				function animate() {
+				requestAnimationFrame(animate);
+				renderer.render(scene, camera);
+				}
+				animate();
+	
+
+			
 		</script>
 	</body>
 </html>
