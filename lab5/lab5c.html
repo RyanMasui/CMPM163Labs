@@ -25,32 +25,55 @@
 			camera.position.z = 60;
 
 		
-		
+			var light = new THREE.PointLight(0x90EE90, 1, 1000);
+			light.position.set(50, 50, 50);
+			scene.add(light);
+
+
+			var loader = new THREE.GLTFLoader();
+			loader.load('rabbit.glb', function (gltf) {
+			scene.add(gltf.scene);
+			gltf.scene.position.x = -95;
+			gltf.scene.position.y = -20;
+			gltf.scene.position.z = -70;
+			gltf.scene.rotation.y = 15;
+			gltf.scene.rotation.z = 0;
+			gltf.scene.scale.x = .5;
+			gltf.scene.scale.y = .5;
+			gltf.scene.scale.z = .5;
 			
+			
+			}, function (xhr) {
+			console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+			console.error(error);
+			});
+		
 			particles = []
 			const geo = new THREE.Geometry()
 			for(let i=0; i<1000; i++) {
 			const particle = {
+			
 			position: new THREE.Vector3(
-			Math.random() * 2 - 1,
-			Math.random() * 2 - 1,
-			Math.random() * 3 - 3),
+			Math.random() * 2 - 100,
+			Math.random() * 2 - 10,
+			Math.random() * 3 - 100),
+			
+			
 			velocity: new THREE.Vector3(
-			Math.random() * .02 - .01,
-			0.06,
-			Math.random() * .02 - .01),
+			Math.random() + .02 - .01, 0.06,
+			Math.random() + .02 - .01),
+
 			acceleration: new THREE.Vector3(
-			Math.random() * .002 - .001, 
-			Math.random() * .002 - .001, 
-			0),
+			Math.random() + .002 - .001, 
+			Math.random() + .002 - .001, 0),
 			}
 			particles.push(particle);
 			geo.vertices.push(particle.position)
 				}
 
 
-
-			const mat = new THREE.PointsMaterial({color:0xffffff,size: 0.5});
+			const mat = new THREE.PointsMaterial({color:0x90EE90,size: 2});
 			mesh = new THREE.Points(geo,mat);
 			mesh.position.z = -4;
 			scene.add(mesh);
