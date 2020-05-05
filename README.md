@@ -1,3 +1,18 @@
+## CMPM163 Lab5
+I did part 2 of lab 5 
+
+Part2a https://drive.google.com/file/d/1Q-LIQaohrsHIlZyqJ6pbJR9uspDCjWbE/view?usp=sharing
+Part2b https://drive.google.com/file/d/1eXDPsIf95CMIwrIhssYiXKkGt8C_v7LC/view?usp=sharing
+Part2c https://drive.google.com/file/d/1iBzsqouDZ9Hrn3Nu4qBLrDhgYhEdTQ71/view?usp=sharing
+
+I did part2a by following the tutorial
+I did part2b by following the tutorial
+I couldn't figure out how to change the particles so I instead made a rabbit sneezing green particles for fun. (which is part2c)
+
+
+
+
+
 ## CMPM163 Lab4
 This is my video of my cubes 
 https://drive.google.com/file/d/1icIsWHgoLJhjy6IPZL3xRRxKhHicI0QI/view?usp=sharing
