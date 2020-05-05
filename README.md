@@ -1,5 +1,14 @@
 ## CMPM163 Lab5
-I did part 2 of lab 5 
+I did part both parts for lab 5 
+
+For part 1's video 
+https://drive.google.com/file/d/1LzD-KC_M3k2dnDvw13S6B2sf58eF3ygN/view?usp=sharing
+
+You can play the game by opening "New Unity Project"
+
+I modified multiple things. I changed the cart color to yellow, I added green particle effects from the tutorial too both sides of the cart, and I modified the entire course. I modified the course by getting rid of a couple curves and connecting the main course to the other part of the course. Me getting rid of some of the curves made it to where the course was longer but not as long as if you had just moved two curves. I also moved the check points, one being further away from the finish line and one being ontop of the the spiral area. 
+
+Part 2 of the lab is below
 
 Part2a https://drive.google.com/file/d/1Q-LIQaohrsHIlZyqJ6pbJR9uspDCjWbE/view?usp=sharing
 Part2b https://drive.google.com/file/d/1eXDPsIf95CMIwrIhssYiXKkGt8C_v7LC/view?usp=sharing
