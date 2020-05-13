@@ -24,6 +24,8 @@ I created a new skybox and bumped up the sun settings to max.
 
 ![](lab6/UnityScene.png)
 
+![](lab6/Material.png)
+
 ## CMPM163 Lab5
 I did part both parts for lab 5 
 
