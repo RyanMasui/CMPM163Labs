@@ -20,6 +20,10 @@ These textures I found from the NatureStarterKit2 in the the Unity Asset Store
 Skybox:
 I created a new skybox and bumped up the sun settings to max. 
 
+![](lab6/Checkboard.png)
+
+![](lab6/UnityScene.png)
+
 ## CMPM163 Lab5
 I did part both parts for lab 5 
 
