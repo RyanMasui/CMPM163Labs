@@ -1,3 +1,25 @@
+## CMPM163 Lab6
+I did part 1 for lab6
+
+Light definitions
+Point light: Sends light out in every direction
+Spotlight: Sends light out in a cone 
+Directional light:Sends light out in a certain direction that covers the whole scene
+Area light: Sends light out in a rectangle
+
+Material: 
+I made the cube look like a checkerboad and I made that by creating a cube material and added "default checker grey" to the albedo.
+
+
+Textures:
+Right Cube = Grass
+Left Cube = Dirt
+
+These textures I found from the NatureStarterKit2 in the the Unity Asset Store
+
+Skybox:
+I created a new skybox and bumped up the sun settings to max. 
+
 ## CMPM163 Lab5
 I did part both parts for lab 5 
 
