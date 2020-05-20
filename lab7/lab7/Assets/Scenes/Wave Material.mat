@@ -21,6 +21,6 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _Speed: 100
-    - _Strength: 0.33
+    - _Strength: 0.36
     m_Colors:
-    - _Color: {r: 0.09677982, g: 0, b: 1, a: 1}
+    - _Color: {r: 0, g: 0.91965485, b: 1, a: 1}
