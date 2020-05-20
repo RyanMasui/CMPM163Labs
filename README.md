@@ -1,3 +1,17 @@
+## CMPM163 Lab7
+
+I just followed the tutorials and edited the sphere to make the mountain.
+
+Video of mountain and stream
+https://drive.google.com/file/d/1NVvNpnecSfhCa7xaT3iz81zaiWMZXDn_/view?usp=sharing
+
+My partner's response
+
+I also did Part 1
+The hardest part of the tutorial was getting the water tutorial to not render as purple sludge
+I think that the way of linking the vertex shader to its position was the most interesting
+He did not help me with the lab. 
+
 ## CMPM163 Lab6
 I did part 1 for lab6
 
