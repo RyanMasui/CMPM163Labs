@@ -1,3 +1,14 @@
+## CMPM163 Lab8
+
+I just followed the tutorial and created a sphere to create a sun behind my city.
+
+![](lab8/inspiration.png)
+
+
+
+
+
+
 ## CMPM163 Lab7
 
 I just followed the tutorials and edited the sphere to make the mountain.
