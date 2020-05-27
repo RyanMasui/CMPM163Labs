@@ -1,12 +1,17 @@
 ## CMPM163 Lab8
 
-I just followed the tutorial and created a sphere to create a sun behind my city.
+I just followed the tutorial to create the city. For the sun I created a sphere and changed its color to a color that looked like a sunrise.
 
+Inspiration for my city
 ![](lab8/inspiration.png)
 
+Picture of my city
+https://drive.google.com/file/d/1_JzSLSTjkERsnSqQG5oFp-GhjZwA1QJ6/view?usp=sharing
 
 
+What influenced the design of my city from the inspiration pic was definitely the sunrise. Sunrises are very aesthetically pleasing and are usually paired well with cities.
 
+My partner Carlos Cisneros did part 1 of lab8 in unity. For the creative part he added new buildings, fog, and a sunset skybox. I thought it was super cool how he didn't have the buildings so close it made it look like an abandoned city. He didn't teach me anything from his picture. He did not help me with any part of this lab. 
 
 
 ## CMPM163 Lab7
